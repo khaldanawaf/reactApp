@@ -19,6 +19,73 @@
   color: white;
 }
 
+.style1 {
+    background-image: url(bk_photo.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.des {
+  float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.des li {
+display: inline-block;
+}
+.des li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.des li.active a{
+border: 1px solid white;
+}
+
+.logo img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.hero{
+    position: absolute;
+    width: 1200px;
+    margin-top: 0;
+    margin-left: 0;
+
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.bodydesign1{
+  font-weight: bold;
+    color: white;
+    margin-left: 300px;
+    height: 250px;
+}
+
+
+
 .App-link {
   color: #61dafb;
 }
@@ -31,3 +98,14 @@
     transform: rotate(360deg);
   }
 }
+.form-container{
+  text-align: center;
+}
+
+.our-container{
+ display:flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: space-around;
+
+ }
